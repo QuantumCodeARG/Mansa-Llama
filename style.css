@@ -10,20 +10,18 @@ body {
   position: relative;
 }
 
-/* Contenedor del logo */
 .logo-container {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  z-index: 1000; 
 }
 
-/* Logo más pequeño */
 .logo {
-  width: 10px;
-  height: 10px;
+  width: 60px; 
+  height: auto; 
 }
 
-/* Formulario de login */
 .login-form {
   background-color: #ffffff;
   padding: 20px;
@@ -34,13 +32,11 @@ body {
   box-sizing: border-box;
 }
 
-/* Título del formulario */
 .login-form h1 {
   margin-bottom: 20px;
   color: #333333;
 }
 
-/* Grupo de entrada */
 .input-group {
   margin-bottom: 15px;
   text-align: left;
@@ -60,7 +56,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Estilo del botón */
 button {
   background-color: #f78b2d;
   color: white;
